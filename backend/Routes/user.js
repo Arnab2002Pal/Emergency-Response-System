@@ -11,4 +11,6 @@ router.delete('/:id', autheticate , restrict(["patient"]) , deleteUser)
 router.get('/profile/me', autheticate , restrict(["patient"]) , getUserProfile)
 router.get('/appointments/my-appointments', autheticate , restrict(["patient"]) , getMyAppointments)
 
+
+
 export default router

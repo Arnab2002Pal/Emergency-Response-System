@@ -8,4 +8,4 @@ const router = express.Router({mergeParams:true})
 
 router.route('/').get(getAllReviews).post(autheticate, restrict(['patient']), createReview)
 
-export default router
+export default router 

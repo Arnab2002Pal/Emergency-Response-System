@@ -146,3 +146,4 @@ export const getMyAppointments = async(req,res)=> {
         })
     }
 }
+
